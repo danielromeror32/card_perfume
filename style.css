@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+    color: #9ca0a2;
+    text-align: left;
+    font-size: 12px;
+
+}
+.container-main{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.container-img {
+    background-color: blueviolet;
+    background-color: hsl(30, 38%, 92%);
+    /* height: 400px;
+    width: 267px; */
+    /* width: 270px;
+    height: 400px; */
+    height: 405px;
+    
+   
+  }
+  
+  .imagen-responsiva {
+    max-width: 100%; /* Establece el tamaño máximo de la imagen */
+    height: auto; /* Establece la altura automáticamente según la proporción de la imagen */
+    width: 100vw; /* Establece el ancho de la imagen en porcentaje del ancho de la pantalla */
+    width: 270px;
+    border-radius:  15px 50px 30px 5px;
+    border-radius:   10px 0px 0px 10px;
+}
+
+.container-text{
+    background-color: hsl(0, 0%, 100%);
+    /* background-color: blue; */
+    border-radius: 0px 10px 10px 0px;
+    width: 270px;
+    height: 405px;
+    display: flex;
+    /* gap: 50px; */
+    
+}
+.format-text{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    padding: 1px 10px;
+}
+
+#product{
+    
+    letter-spacing: 0.2em;
+}
+
+
+.title{
+    color: hsl(212, 21%, 14%);
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    padding: 10px 0px;
+}
+
+
+.prices{
+    display: inline-block;
+}
+
+.current{
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    color: hsl(158, 36%, 37%);
+}
+
+.before{
+    font-size: 1rem;
+    text-decoration: line-through;
+    /* margin: 0 20px;
+    padding: 0px; */
+
+}
+.button-car{
+    background-color: hsl(158, 36%, 37%);
+    text-align: center;
+    color: white;
+    border: none;
+    font-size: 1rem; /* aumenta el tamaño del texto */
+    font-family: 'Montserrat', sans-serif;
+     /* aumenta el tamaño del área de clickeo */
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 15px 0px;
+
+    /* margin: 0 10px; */
+
+}
+#img_car{
+    margin-right: 5px;
+}
+button:hover {
+    background-color: hsl(156,42%,18%);
+    
+  }
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
