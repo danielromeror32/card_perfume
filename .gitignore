@@ -14,3 +14,10 @@
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
 .prettierignore
+
+
+product-card-component/
+README-template.md
+
+product-card-component/
+style-guide.md

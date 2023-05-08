@@ -25,7 +25,7 @@ body{
     width: 267px; */
     /* width: 270px;
     height: 400px; */
-    height: 405px;
+    /* height: 405px; */
     height: 420px;
    
   }
@@ -61,7 +61,7 @@ body{
 
 #product{
     
-    letter-spacing: 0.2em;
+    letter-spacing: 0.5em;
 }
 .headers{
     padding: 0px 20px ;
@@ -120,3 +120,45 @@ button:hover {
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+
+@media (max-width: 537px){
+   body{
+    font-size: 1rem;
+   }
+    .container-main {
+        /* display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh; */
+        flex-direction: column;
+        justify-content:flex-start;
+        height: 100%;
+       
+    }
+    .imagen-responsiva{
+        content: url("./images/image-product-mobile.jpg");
+        width: 355px;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .container-img {
+       
+        margin-top: 10%;
+        height: 248px;
+      }
+    .container-text{
+    width: 357px;
+    border-radius: 0px 0px 10px 10px;
+    height: 460px;
+      }
+    .description{
+        line-height: 2;
+    }
+    .format-text{
+    padding: 0px 15px;
+    justify-content: space-evenly;
+    }
+}
